@@ -1,0 +1,385 @@
+{
+    "high_risk_schools": [
+        {
+            "school_name": "Greenwood High",
+            "total_dropouts": 33,
+            "standard_breakdown": [
+                {
+                    "standard": "1st",
+                    "count": 6
+                },
+                {
+                    "standard": "6th",
+                    "count": 5
+                },
+                {
+                    "standard": "5th",
+                    "count": 5
+                }
+            ],
+            "gender_breakdown": {
+                "Other": 21
+            }
+        },
+        {
+            "school_name": "Horizon School",
+            "total_dropouts": 25,
+            "standard_breakdown": [
+                {
+                    "standard": "5th",
+                    "count": 5
+                },
+                {
+                    "standard": "6th",
+                    "count": 4
+                },
+                {
+                    "standard": "4th",
+                    "count": 4
+                }
+            ],
+            "gender_breakdown": {
+                "Other": 15
+            }
+        },
+        {
+            "school_name": "Riverdale Public",
+            "total_dropouts": 24,
+            "standard_breakdown": [
+                {
+                    "standard": "2nd",
+                    "count": 5
+                },
+                {
+                    "standard": "7th",
+                    "count": 4
+                },
+                {
+                    "standard": "5th",
+                    "count": 4
+                }
+            ],
+            "gender_breakdown": {
+                "Other": 13
+            }
+        }
+    ],
+    "age_patterns": {
+        "age_distribution": [
+            {
+                "age": 6,
+                "count": 9
+            },
+            {
+                "age": 7,
+                "count": 7
+            },
+            {
+                "age": 8,
+                "count": 16
+            },
+            {
+                "age": 9,
+                "count": 10
+            },
+            {
+                "age": 10,
+                "count": 10
+            },
+            {
+                "age": 11,
+                "count": 18
+            },
+            {
+                "age": 12,
+                "count": 6
+            },
+            {
+                "age": 13,
+                "count": 9
+            },
+            {
+                "age": 14,
+                "count": 15
+            }
+        ],
+        "critical_age": [
+            {
+                "age": 11,
+                "count": 18
+            }
+        ],
+        "age_standard_correlation": [
+            {
+                "age": 14,
+                "standard": "2nd",
+                "count": 6
+            },
+            {
+                "age": 11,
+                "standard": "5th",
+                "count": 5
+            },
+            {
+                "age": 11,
+                "standard": "3rd",
+                "count": 4
+            },
+            {
+                "age": 8,
+                "standard": "5th",
+                "count": 3
+            },
+            {
+                "age": 8,
+                "standard": "7th",
+                "count": 3
+            },
+            {
+                "age": 9,
+                "standard": "3rd",
+                "count": 3
+            },
+            {
+                "age": 10,
+                "standard": "4th",
+                "count": 3
+            },
+            {
+                "age": 11,
+                "standard": "1st",
+                "count": 3
+            },
+            {
+                "age": 11,
+                "standard": "2nd",
+                "count": 3
+            },
+            {
+                "age": 13,
+                "standard": "3rd",
+                "count": 3
+            }
+        ]
+    },
+    "gender_disparities": {
+        "gender_distribution": [
+            {
+                "gender": "Other",
+                "count": 36
+            },
+            {
+                "gender": "Other",
+                "count": 64
+            }
+        ],
+        "gender_area_distribution": [
+            {
+                "gender": "Other",
+                "area": "Rural",
+                "count": 27
+            },
+            {
+                "gender": "Other",
+                "area": "Rural",
+                "count": 20
+            },
+            {
+                "gender": "Other",
+                "area": "Urban",
+                "count": 37
+            },
+            {
+                "gender": "Other",
+                "area": "Urban",
+                "count": 16
+            }
+        ]
+    },
+    "area_analysis": {
+        "area_distribution": [
+            {
+                "area": "Urban",
+                "count": 53
+            },
+            {
+                "area": "Rural",
+                "count": 47
+            }
+        ],
+        "area_caste_analysis": [
+            {
+                "area": "Rural",
+                "caste": "ST",
+                "count": 18
+            },
+            {
+                "area": "Rural",
+                "caste": "SC",
+                "count": 13
+            },
+            {
+                "area": "Rural",
+                "caste": "OBC",
+                "count": 9
+            },
+            {
+                "area": "Rural",
+                "caste": "General",
+                "count": 7
+            },
+            {
+                "area": "Urban",
+                "caste": "ST",
+                "count": 16
+            },
+            {
+                "area": "Urban",
+                "caste": "SC",
+                "count": 14
+            },
+            {
+                "area": "Urban",
+                "caste": "OBC",
+                "count": 12
+            },
+            {
+                "area": "Urban",
+                "caste": "General",
+                "count": 11
+            }
+        ]
+    },
+    "year_trends": {
+        "yearly_trends": [
+            {
+                "dropout_year": 2023,
+                "total": 100
+            }
+        ],
+        "year_school_analysis": [
+            {
+                "school_name": "Greenwood High",
+                "dropout_year": 2023,
+                "count": 33
+            },
+            {
+                "school_name": "Horizon School",
+                "dropout_year": 2023,
+                "count": 25
+            },
+            {
+                "school_name": "Riverdale Public",
+                "dropout_year": 2023,
+                "count": 24
+            },
+            {
+                "school_name": "Sunrise Academy",
+                "dropout_year": 2023,
+                "count": 18
+            }
+        ]
+    },
+    "caste_correlations": {
+        "caste_distribution": [
+            {
+                "caste": "ST",
+                "count": 34
+            },
+            {
+                "caste": "SC",
+                "count": 27
+            },
+            {
+                "caste": "OBC",
+                "count": 21
+            },
+            {
+                "caste": "General",
+                "count": 18
+            }
+        ],
+        "caste_school_analysis": [
+            {
+                "caste": "General",
+                "school_name": "Riverdale Public",
+                "count": 6
+            },
+            {
+                "caste": "General",
+                "school_name": "Greenwood High",
+                "count": 6
+            },
+            {
+                "caste": "General",
+                "school_name": "Horizon School",
+                "count": 5
+            },
+            {
+                "caste": "General",
+                "school_name": "Sunrise Academy",
+                "count": 1
+            },
+            {
+                "caste": "OBC",
+                "school_name": "Sunrise Academy",
+                "count": 7
+            },
+            {
+                "caste": "OBC",
+                "school_name": "Horizon School",
+                "count": 6
+            },
+            {
+                "caste": "OBC",
+                "school_name": "Greenwood High",
+                "count": 6
+            },
+            {
+                "caste": "OBC",
+                "school_name": "Riverdale Public",
+                "count": 2
+            },
+            {
+                "caste": "SC",
+                "school_name": "Greenwood High",
+                "count": 9
+            },
+            {
+                "caste": "SC",
+                "school_name": "Riverdale Public",
+                "count": 8
+            },
+            {
+                "caste": "SC",
+                "school_name": "Horizon School",
+                "count": 6
+            },
+            {
+                "caste": "SC",
+                "school_name": "Sunrise Academy",
+                "count": 4
+            },
+            {
+                "caste": "ST",
+                "school_name": "Greenwood High",
+                "count": 12
+            },
+            {
+                "caste": "ST",
+                "school_name": "Riverdale Public",
+                "count": 8
+            },
+            {
+                "caste": "ST",
+                "school_name": "Horizon School",
+                "count": 8
+            },
+            {
+                "caste": "ST",
+                "school_name": "Sunrise Academy",
+                "count": 6
+            }
+        ]
+    }
+}
