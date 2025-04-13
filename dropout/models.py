@@ -1,5 +1,6 @@
 from django.db import models
 from django.utils import timezone
+import datetime
 
 class StudentDropout(models.Model):
     school_name = models.CharField(max_length=255)
@@ -8,7 +9,7 @@ class StudentDropout(models.Model):
     caste = models.CharField(max_length=100)
     standard = models.CharField(max_length=10)
     age = models.IntegerField()
-    date_of_dropout = models.DateField(default='2023-01-01')
+    date_of_dropout = models.DateField(default=datetime.date(2023, 1, 1))
     reason = models.TextField(default='Unknown')  # ✅ Added default here
 
     def __str__(self):
